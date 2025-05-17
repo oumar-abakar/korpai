@@ -25,15 +25,15 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Qui suis-je ?</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Je m&#39appelle <strong className="text-violet-700">Abakar Oumar</strong> et je suis le créateur de <strong>Korpai</strong>.
-                J&#39ai conçu ce projet comme un manifeste : prouver qu&#39un solo entrepreneur peut aller aussi loin qu&#39une équipe entière.
+                Je m&#39;appelle <strong className="text-violet-700">Abakar Oumar</strong> et je suis le créateur de <strong>Korpai</strong>.
+                J&#39;ai conçu ce projet comme un manifeste : prouver qu&#39;un solo entrepreneur peut aller aussi loin qu&#39;une équipe entière.
               </p>
               <p className="text-lg text-gray-700 mb-4">
                 Mon métier ? Créer, automatiser, itérer. Grâce à mes agents IA et mes clones vidéo,
                 je gère ma prospection sans jamais devoir sacrifier mon temps ni mon énergie.
               </p>
               <p className="text-lg text-gray-700">
-                Aujourd&#39hui, j&#39accompagne d&#39autres indépendants à faire pareil — et à rejoindre le mouvement
+                Aujourd&#39;hui, j&#39;accompagne d&#39;autres indépendants à faire pareil — et à rejoindre le mouvement
                 des <strong>entrepreneurs augmentés</strong>.
               </p>
             </div>
@@ -51,12 +51,12 @@ export default function AboutPage() {
 
             <ul className="text-base md:text-lg text-gray-800 space-y-2 mb-6">
               <li>🧠 Les agents IA analysent, planifient, automatisent.</li>
-              <li>🎥 Les clones IA parlent à vos prospects comme si c&#39était moi.</li>
-              <li>👤 Et moi ? Je pilote l&#39ensemble.</li>
+              <li>🎥 Les clones IA parlent à vos prospects comme si c&#39;était moi.</li>
+              <li>👤 Et moi ? Je pilote l&#39;ensemble.</li>
             </ul>
 
             <p className="text-md text-gray-700 mb-6">
-              🎯 <strong>Notre mission :</strong> Prouver qu&#39une SoloCorp™ peut rivaliser avec une multinationale.
+              🎯 <strong>Notre mission :</strong> Prouver qu&#39;une SoloCorp™ peut rivaliser avec une multinationale.
               Et à terme, créer la première <strong>corporation individuelle à échelle mondiale</strong>.
             </p>
           </section>
@@ -113,7 +113,7 @@ export default function AboutPage() {
             </blockquote>
             <p className="text-lg text-gray-700">
               Mon but : permettre à un freelance ou une petite structure de devenir aussi puissant
-              qu&#39un département marketing complet — grâce à l&#39<strong>IA</strong>, l&#39<strong>automatisation</strong> et une <strong>stratégie ultra-personnalisée</strong>.
+              qu&#39;un département marketing complet — grâce à l&#39;<strong>IA</strong>, l&#39;<strong>automatisation</strong> et une <strong>stratégie ultra-personnalisée</strong>.
             </p>
           </section>
 
@@ -124,7 +124,7 @@ export default function AboutPage() {
             </h2>
             <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
               Korpai est encore jeune.  
-              Mais ceux qui rejoignent la bêta aujourd&#39hui ne testent pas juste un produit.  
+              Mais ceux qui rejoignent la bêta aujourd&#39;hui ne testent pas juste un produit.  
               <strong>Ils rejoignent un mouvement</strong> : celui des <em>entrepreneurs augmentés</em>.
             </p>
             <a
