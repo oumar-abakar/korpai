@@ -36,7 +36,7 @@ export default function SoloCorpTeam() {
         </div>
 
         {/* Visuel type trombinoscope */}
-        <div className="grid grid-cols-3 gap-4 text-center text-sm text-gray-700">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-center text-sm text-gray-700">
           {[
             { src: "/profil-ai.png", alt: "Moi", label: "Moi, Abakar" },
             { src: "/agent-ia1.png", alt: "Agent IA 1", label: "Agent IA 1" },
