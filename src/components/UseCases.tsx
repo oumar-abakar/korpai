@@ -3,7 +3,7 @@ export default function UseCases() {
     <section className="bg-gray-50 py-20 px-6 border-t border-gray-200">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
-          Des cas concrets d'utilisation de Korpai
+          Des cas concrets d&#39;utilisation de Korpai
         </h2>
         <div className="grid md:grid-cols-3 gap-10 text-left">
           <div className="bg-white p-6 rounded-xl shadow">

@@ -1,54 +1,67 @@
-export default function Mechanism() {
+import Link from "next/link";
+import Image from "next/image";
+
+export default function SoloCorpTeam() {
   return (
-    <section id="mecanisme" className="bg-white py-20 px-6">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-          🔧 Comment ça fonctionne ?
-        </h2>
-        <p className="text-lg text-gray-700 mb-10">
-          La méthode Korpai repose sur un mécanisme unique : <strong>votre clonage IA + l’automatisation des envois</strong>.<br />
-          Ce duo vous permet d’envoyer des vidéos ultra-personnalisées à grande échelle — <span className="text-violet-700 font-semibold">et de tripler vos taux de réponse sans effort</span>.
-        </p>
-        {/* Image illustrative */}
-        <div className="mb-12">
-          <img
-            src="/looms.png"
-            alt="Illustration du mécanisme de prospection IA"
-            className="w-full max-w-3xl mx-auto rounded-xl shadow-md"
-          />
-        </div>
+    <section className="bg-gray-50 py-20 px-6 border-t border-gray-200">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-        {/* Étapes */}
-        <div className="grid md:grid-cols-2 gap-8 text-left text-gray-800">
-          <div>
-            <h3 className="text-xl font-semibold text-violet-700 mb-2">📍 Étape 1 : Prospection ciblée</h3>
-            <p>
-              Korpai identifie automatiquement les prospects les plus pertinents dans votre niche.
-            </p>
-            <h3 className="text-xl font-semibold text-violet-700 mt-6 mb-2">🎯 Étape 2 : Script IA personnalisé</h3>
-            <p>
-              Pour chaque prospect, l’IA génère un script unique adapté à son profil, ton de voix, et contexte.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-violet-700 mb-2">🎥 Étape 3 : Vidéo deepfake... de vous-même</h3>
-            <p>
-              En un clic, vous générez une vidéo IA de vous-même, qui lit un script ultra-personnalisé pour chacun de vos prospects.
-            </p>
-            <h3 className="text-xl font-semibold text-violet-700 mt-6 mb-2">📬 Étape 4 : Envoi automatisé</h3>
-            <p>
-              Les vidéos + emails partent dans une séquence intelligente sans aucune action manuelle.
-            </p>
-          </div>
-        </div>
+        {/* Texte */}
+        <div>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            👥 Découvrez le concept de la <span className="text-violet-700">SoloCorp™</span>
+          </h2>
+          <p className="text-lg text-gray-700 mb-6">
+            Une entreprise composée de <strong>moi</strong>, de mes <strong>agents IA</strong> et de mes <strong>clones IA</strong>.
+            Une structure déjà active, pensée pour fonctionner <em>sans équipe classique</em>.
+          </p>
 
-        <div className="mt-12">
-          <a
-            href="/rejoindre"
-            className="inline-block bg-violet-700 text-white px-6 py-3 rounded-xl font-medium hover:bg-violet-800 transition"
+          <ul className="text-base md:text-lg text-gray-800 space-y-2 mb-6">
+            <li>🧠 Les agents IA analysent, planifient, automatisent.</li>
+            <li>🎥 Les clones IA parlent à vos prospects comme si c’était moi.</li>
+            <li>👤 Et moi ? Je pilote l’ensemble.</li>
+          </ul>
+
+          <p className="text-md text-gray-700 mb-6">
+            🎯 <strong>Notre mission ? :</strong> Prouver qu’une SoloCorp™ peut rivaliser avec une multinationale.
+            Et à terme, créer la première <strong>corporation individuelle à échelle mondiale</strong>.
+          </p>
+
+          <Link
+            href="/a-propos"
+            className="inline-block bg-violet-700 text-white px-6 py-3 rounded-xl font-semibold hover:bg-violet-800 transition"
           >
-            Je veux tester ce mécanisme
-          </a>
+            Voir la vision complète →
+          </Link>
+        </div>
+
+        {/* Visuel type trombinoscope */}
+        <div className="grid grid-cols-3 gap-4 text-center text-sm text-gray-700">
+          {[
+            { src: "/profil-ai.png", alt: "Moi", label: "Moi, Abakar" },
+            { src: "/agent-ia1.png", alt: "Agent IA 1", label: "Agent IA 1" },
+            { src: "/agent-ia2.png", alt: "Agent IA 2", label: "Agent IA 2" },
+            { src: "/clone-ia.png", alt: "Clone IA 1", label: "Clone IA 1" },
+            { src: "/clone-ia.png", alt: "Clone IA 2", label: "Clone IA 2" },
+            { src: "/clone-ia.png", alt: "Clone IA 3", label: "Clone IA 3" },
+          ].map((item, i) => (
+            <div key={i} className="bg-white rounded-xl shadow p-4">
+              <div className="w-36 h-36 mx-auto mb-2 relative">
+                <Image
+                  src={item.src}
+                  alt={item.alt}
+                  fill
+                  className="rounded-full object-cover"
+                />
+              </div>
+              <div className="font-semibold">{item.label}</div>
+            </div>
+          ))}
+
+          <div className="bg-white rounded-xl shadow p-4 flex flex-col items-center justify-center">
+            <span className="text-gray-400 text-xl mb-1">…</span>
+            <span className="font-semibold text-gray-500">Et une infinité</span>
+          </div>
         </div>
       </div>
     </section>
