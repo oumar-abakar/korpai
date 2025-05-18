@@ -89,7 +89,7 @@ export default function AboutPage() {
 
             <div>
               <Image
-                src="/clone-ia2.png"
+                src="/clone-ia1.png"
                 alt="Clone IA"
                 width={240}
                 height={240}

@@ -41,9 +41,9 @@ export default function SoloCorpTeam() {
             { src: "/profil-ai.png", alt: "Moi", label: "Moi, Abakar" },
             { src: "/agent-ia1.png", alt: "Agent IA 1", label: "Agent IA 1" },
             { src: "/agent-ia2.png", alt: "Agent IA 2", label: "Agent IA 2" },
-            { src: "/clone-ia.png", alt: "Clone IA 1", label: "Clone IA 1" },
-            { src: "/clone-ia.png", alt: "Clone IA 2", label: "Clone IA 2" },
-            { src: "/clone-ia.png", alt: "Clone IA 3", label: "Clone IA 3" },
+            { src: "/clone-ia1.png", alt: "Clone IA 1", label: "Clone IA 1" },
+            { src: "/clone-ia1.png", alt: "Clone IA 2", label: "Clone IA 2" },
+            { src: "/clone-ia1.png", alt: "Clone IA 3", label: "Clone IA 3" },
           ].map((item, i) => (
             <div key={i} className="bg-white rounded-xl shadow p-4">
               <div className="w-36 h-36 mx-auto mb-2 relative">
