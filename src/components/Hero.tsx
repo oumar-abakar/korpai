@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative text-white py-13 px-6 text-center overflow-hidden">
+    <section className="relative text-white py-23 px-6 text-center overflow-hidden">
 
       {/* Background image with fixed parallax effect */}
       <div
@@ -13,8 +13,8 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-20 max-w-4xl mx-auto mt-12 mb-9">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-          Triplez votre taux de réponses<br />
-          avec des vidéos de prospection IA <span className="underline">sans y passer des dizaines heures par mois.</span>
+          Triplez votre taux de réponse<br />
+          avec des vidéos de prospection IA <span className="underline">sans y passer des dizaines heures.</span>
         </h1>
         <p className="text-lg md:text-xl mb-8">
           Korpai génère à votre place des vidéos personnalisées de vous-même.<br />

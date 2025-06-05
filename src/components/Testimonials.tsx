@@ -1,6 +1,6 @@
 export default function Testimonials() {
   return (
-    <section id="temoignages" className="bg-gray-50 py-20 px-6 border-t border-gray-200">
+    <section id="temoignages" className="bg-gray-100 py-20 px-6 border-t border-gray-200">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10">
           Ce qu’en disent les premiers utilisateurs
