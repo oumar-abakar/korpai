@@ -13,7 +13,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-20 max-w-4xl mx-auto mt-12 mb-9">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-          Tripler vos réponses de prospection<br />
+          Triplez votre taux de réponses<br />
           avec des vidéos de prospection IA <span className="underline">sans y passer des dizaines heures par mois.</span>
         </h1>
         <p className="text-lg md:text-xl mb-8">
@@ -28,7 +28,7 @@ export default function Hero() {
             Rejoindre la bêta privée
           </a>
           <span className="text-sm italic">
-            🕒 Inscriptions ouvertes encore <strong>14 jours</strong>
+            🕒 Inscriptions ouvertes
           </span>
         </div>
       </div>

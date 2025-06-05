@@ -3,11 +3,11 @@ export default function BetaCTA() {
     <section id="cta" className="bg-violet-700 text-white py-35 px-6 text-center">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          🎉 Vous pouvez encore rejoindre la bêta privée pendant 14 jours
+          🎉 Il est encore temps pour rejoindre la bêta privée
         </h2>
         <p className="text-lg mb-8">
           Accédez gratuitement à toutes les fonctionnalités de Korpai.
-          Aucune carte bancaire requise. Vos retours comptent vraiment.
+          Aucune carte bancaire requise.
         </p>
         <a
           href="/rejoindre"
