@@ -18,7 +18,7 @@ export default function Features() {
             </h3>
             <p className="text-gray-700">
               Générez une vidéo IA de vous-même en 1 clic, avec un script entièrement
-              personnalisé pour chaque prospect. Votre visage, vos mots — mais sans tournage.
+              personnalisé pour chaque prospect. Votre visage, vos mots — mais sans tournage répétitif.
             </p>
           </div>
 
@@ -28,7 +28,7 @@ export default function Features() {
               ⚙️ Campagne IA automatisée
             </h3>
             <p className="text-gray-700">
-              En quelques minutes, Korpai construit une séquence intelligente : email initial,
+              En quelques jours, Korpai construit une séquence intelligente : emails,
               relances, timing… Tout est généré et envoyé automatiquement, sans CRM ni copier-coller.
             </p>
           </div>

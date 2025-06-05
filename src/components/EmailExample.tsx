@@ -10,16 +10,17 @@ export default function EmailExample() {
 
 Bonjour [Prénom],
 
-J’ai vu votre dernière [publication ou projet spécifique],
-et ça m’a inspiré 3 idées pour booster vos résultats.
+J’ai vu votre dernière [publication récente sur un sujet spécifique] + [compliment],
 
-🎥 J’ai fait une vidéo pour vous en 60 secondes : [Lien vers la vidéo IA]
+Je me permets de vous contacter car j'ai visité votre [page de vente] et ça m’a inspiré 2 idées d'amélioration pour booster vos ventes.
+
+🎥 J’ai fait une petite vidéo d'une minute pour vous expliquer mes pistes : [Lien vers la vidéo IA]
 
 J’espère que ça vous sera utile,
 
 [Votre prénom]
 
-PS : Si ça vous intéresse d’en parler, je suis dispo.`}
+PS : Si ça vous intéresse que je vous aide à rédiger [vos pages de vente/fiches produits], je suis disponible pour un appel !`}
         </div>
         <div className="mt-8">
           <a

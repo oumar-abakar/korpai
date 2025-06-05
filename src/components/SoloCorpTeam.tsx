@@ -1,10 +1,9 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function SoloCorpTeam() {
   return (
     <section className="bg-gray-50 py-20 px-6 border-t border-gray-200">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-6xl mx-auto gap-12 text-center items-center">
 
         {/* Texte */}
         <div>
@@ -33,35 +32,6 @@ export default function SoloCorpTeam() {
           >
             Voir la vision complète →
           </Link>
-        </div>
-
-        {/* Visuel type trombinoscope */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-center text-sm text-gray-700">
-          {[
-            { src: "/profil-ai.png", alt: "Moi", label: "Moi, Abakar" },
-            { src: "/agent-ia1.png", alt: "Agent IA 1", label: "Agent IA 1" },
-            { src: "/agent-ia2.png", alt: "Agent IA 2", label: "Agent IA 2" },
-            { src: "/clone-ia1.png", alt: "Clone IA 1", label: "Clone IA 1" },
-            { src: "/clone-ia1.png", alt: "Clone IA 2", label: "Clone IA 2" },
-            { src: "/clone-ia1.png", alt: "Clone IA 3", label: "Clone IA 3" },
-          ].map((item, i) => (
-            <div key={i} className="bg-white rounded-xl shadow p-4">
-              <div className="w-36 h-36 mx-auto mb-2 relative">
-                <Image
-                  src={item.src}
-                  alt={item.alt}
-                  fill
-                  className="rounded-full object-cover"
-                />
-              </div>
-              <div className="font-semibold">{item.label}</div>
-            </div>
-          ))}
-
-          <div className="bg-white rounded-xl shadow p-4 flex flex-col items-center justify-center">
-            <span className="text-gray-400 text-xl mb-1">…</span>
-            <span className="font-semibold text-gray-500">Et une infinité</span>
-          </div>
         </div>
       </div>
     </section>

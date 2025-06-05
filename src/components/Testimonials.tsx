@@ -29,7 +29,7 @@ export default function Testimonials() {
           </div>
           <div className="bg-white p-6 rounded-xl shadow">
             <p className="text-gray-800 italic mb-4">
-              “Je gère une agence à 1 seule personne. Avec Korpai, mes clients croient que j’ai une équipe. Les vidéos font tout le travail. J’ai converti 4 leads en 10 jours sans effort.”
+              “Je gère une agence à 1 seule personne. Mes clients croient que j’ai une équipe. Les vidéos font tout le travail. J’ai converti 4 leads en 10 jours facilement.”
             </p>
             <p className="text-sm font-semibold text-violet-700">— Maxime, agence solo</p>
           </div>
