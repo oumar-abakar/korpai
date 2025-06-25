@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Korpai - Augmentez-vous avec l'apos;IA",
-  description: "Augmentez-vous avec l'apos;IA",
+  title: "Korpai - Augmentez-vous avec l'IA",
+  description: "Augmentez-vous avec l'IA",
 };
 
 export default function RootLayout({
