@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Korpai - Augmentez-vous avec l'IA",
-  description: "Augmentez-vous avec l'IA",
+  title: "Korpai - Augmentez-vous avec l'apos;IA",
+  description: "Augmentez-vous avec l'apos;IA",
 };
 
 export default function RootLayout({
@@ -29,7 +29,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="google-site-verification" content="TON_CODE" />
-        <title>Korpai - Augmentez-vous avec l'IA</title>
+        <title>Korpai - Augmentez-vous avec l&apos;IA</title>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
