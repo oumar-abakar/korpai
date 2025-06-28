@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Korpai - Prospectez avec l'IA",
   description: "Créez des vidéos de prospection IA ultra-personnalisées pour vos prospects",
-  metadataBase: new URL("https://korpai.xyz"), // ✅ Ajout pour la gestion des URL absolues
+  metadataBase: new URL("https://korpai.xyz"),
 };
 
 export default function RootLayout({
@@ -30,12 +30,10 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="google-site-verification" content="TON_CODE" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://korpai.xyz/" /> {/* ✅ Balise canonical */}
+        <link rel="canonical" href="https://korpai.xyz/" />
         <title>Korpai - Prospectez avec l&apos;IA</title>
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
