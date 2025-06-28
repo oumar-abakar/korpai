@@ -13,7 +13,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-20 max-w-4xl mx-auto mt-12 mb-9">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-          Triplez votre taux de réponse<br />
+          Multipliez par x20 votre taux de réponse<br />
           avec des vidéos de prospection IA <span className="underline">sans y passer des dizaines heures.</span>
         </h1>
         <p className="text-lg md:text-xl mb-8">

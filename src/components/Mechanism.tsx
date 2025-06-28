@@ -9,7 +9,7 @@ export default function Mechanism() {
         </h2>
         <p className="text-lg text-gray-700 mb-10">
           La méthode Korpai repose sur un mécanisme unique : <strong>votre clonage IA + l’automatisation des envois</strong>.<br />
-          Ce duo permet aux copywriters d’envoyer des vidéos ultra-personnalisées à grande échelle — <span className="text-violet-700 font-semibold">et de tripler vos taux de réponse rapidement</span>.
+          Ce duo permet aux copywriters d’envoyer des vidéos ultra-personnalisées à grande échelle — <span className="text-violet-700 font-semibold">et de décupler vos taux de réponse rapidement</span>.
         </p>
         {/* Image illustrative */}
         <div className="mb-12">
